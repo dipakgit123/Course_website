@@ -1,0 +1,13 @@
+.contain{
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 35px ;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 5px;
+    font-weight: 700;
+}

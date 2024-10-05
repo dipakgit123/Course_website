@@ -1,0 +1,81 @@
+.img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 600px;
+    background: transparent;
+}
+
+/* Media query for screens less than or equal to 1200px */
+@media (max-width: 1200px) {
+    .img {
+        display: none; /* Hide the image */
+    }
+}
+
+.responsive-input {
+    height: 45px;
+    border: 1px solid black;
+    background-color: white;
+    width: 470px;
+
+    
+    @media (min-width: 1200px) {
+        width: 90%; /* Match input width to the container */
+    }
+
+    /* Media query for small screens (less than or equal to 900px) */
+    @media (max-width: 900px) {
+        width: 90%; /* Same as the button */
+    }
+
+    /* Media query for medium screens (less than or equal to 768px) */
+    @media (max-width: 768px) {
+        width: 90%; /* Keep input width consistent with smaller screens */
+    }
+
+    /* Media query for very small screens (less than or equal to 480px) */
+    @media (max-width: 480px) {
+        width: 90%; /* Use percentage to avoid overflow issues */
+    }
+}
+
+
+     @media  (max-width:768px)
+     {
+      .firstdiv{
+        display: none;
+      }  
+     }
+
+.btnReg {
+    width: 400px;
+    height: 40px;
+    background-color: #F4DE7C;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Media query for screens less than or equal to 768px */
+@media (max-width: 768px) {
+    .btnReg {
+        width: 300px; /* Match the input field width */
+             /* Keep height consistent with input field */
+    }
+}
+
+/* Media query for screens less than or equal to 480px */
+@media (max-width: 480px) {
+    .btnReg {
+        width: 180px; /* Match the input field width */
+       /* Same as the smaller input field height */
+    }
+}

@@ -1,14 +1,15 @@
-.container{
+.container1{
     position: absolute;
     top: 150px;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    height: 620px;
+    height: 500px;
     width: 500px;
     box-shadow: 0 0 10px 5px #F7F7F7;
 }
+
 .heading{
     text-align: center;
     font-size: 25px;
@@ -19,11 +20,11 @@
     font-size: 15px;
     color: #4B5A81;
     margin-top: -15px;
-}
+} 
 
 @media (max-width: 480px) {
     .container{
-        height: 620px;
+        height: 500px;
         width: 320px;
         padding: 5px;
         
@@ -36,11 +37,9 @@
       font-size: 0.9rem;
     }
   
-    
-  }
-  
+}
 
-  .responsive-input {
+.responsive-input {
     height: 45px;
     border: 1px solid gray;
     width: 470px; /* Default width */
@@ -56,31 +55,67 @@
       width:90%
     }
   }
-  
-  .btn{
+
+  .btn2{
     width: 430px;
     height: 50px;
     background-color: #F4DE7C;
     margin-left: 30px;
-    margin-top: 10px;
-   
+    margin-top: 15px;
     border: none;
     text-align: center;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 17px;
     border-radius: 8px;
     cursor: pointer;
   }
+.btn2:hover{
+    background-color: #DAAA47;
+}
   @media (max-width: 768px) {
-    .btn{
+    .btn2{
         width: 350px;
         height: 45px;
+        font-size: 15px;
     }
   }
   @media (max-width: 480px) {
-    .btn{
+    .btn2{
         width: 250px;
         height: 40px;
+        font-size: 12px;
     }
   }
 
+  .btn1{
+    display: flex;
+  align-items: center;
+  justify-content: center; 
+    width: 430px;
+    height: 50px;
+    background-color: #ffff;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 1px solid #374151 ;
+    color:#374151 ;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .btn1{
+        width: 350px;
+        height: 45px;
+        font-size: 15px;
+    }
+  }
+  @media (max-width: 480px) {
+    .btn1{
+        width: 250px;
+        height: 40px;
+        font-size: 12px;
+    }
+  }

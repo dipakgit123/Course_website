@@ -133,8 +133,6 @@ const handleClose = () => setOpen(false);
           <p>Country:{open.country}</p>
           <p>where you heard about us:{`${open.social},`}</p>
           </div>
-
-        
              
         </Box>
       </Modal>

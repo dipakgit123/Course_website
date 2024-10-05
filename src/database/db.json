@@ -1,33 +1,6 @@
 {
   "users": [
     {
-      "id": "f163",
-      "firstname": "Kunal",
-      "email": "kunajagtapl@gmail.com",
-      "city": "pune",
-      "phone": "9043535353",
-      "gender": "male",
-      "country": "India",
-      "social": [
-        "facebook",
-        "Linkedin"
-      ]
-    },
-    {
-      "id": "9ef9",
-      "firstname": "mayur",
-      "email": "mayur@gmail.com",
-      "city": "nagar",
-      "phone": "9022847474",
-      "gender": "male",
-      "country": "India",
-      "social": [
-        "Linkedin",
-        "whatsapp",
-        "instagram"
-      ]
-    },
-    {
       "id": "17e0",
       "firstname": "vaibhav",
       "password": "123456789",
@@ -40,6 +13,180 @@
         "Linkedin",
         "whatsapp"
       ]
+    }
+  ],
+  "signup": [
+    {
+      "id": "1",
+      "firstname": "Dipak",
+      "lastname": "pund"
+    },
+    {
+      "id": "99ab"
+    },
+    {
+      "id": "5558"
+    },
+    {
+      "id": "860c"
+    },
+    {
+      "id": "5be8"
+    },
+    {
+      "id": "9d5a"
+    },
+    {
+      "id": "6c90",
+      "firstname": "dipak",
+      "lastname": "pund",
+      "email": "",
+      "password": "",
+      "phone": ""
+    },
+    {
+      "id": "72fb",
+      "firstname": "dipak",
+      "lastname": "pund",
+      "email": "",
+      "password": "",
+      "phone": ""
+    },
+    {
+      "id": "1b6f",
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "phone": ""
+    },
+    {
+      "id": "843b",
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "phone": ""
+    },
+    {
+      "id": "e85b",
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "phone": ""
+    },
+    {
+      "id": "739f",
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "phone": ""
+    },
+    {
+      "id": "533b",
+      "firstname": "Dipak",
+      "lastname": "Pund",
+      "email": "punddipal8@gmail.com",
+      "password": "12345678",
+      "phone": "9022585979"
+    },
+    {
+      "id": "357a",
+      "firstname": "Dipak",
+      "lastname": "Pund",
+      "email": "punddipal@gmail.com",
+      "password": "232323",
+      "phone": "9033884848"
+    },
+    {
+      "id": "5b4c",
+      "firstname": "sharad",
+      "lastname": "pund",
+      "email": "dipak@gmail.com",
+      "password": "12345678",
+      "phone": "9033933933"
+    },
+    {
+      "id": "b7fe",
+      "firstname": "abcd",
+      "lastname": "pqrs",
+      "email": "pqrs@gmail.com",
+      "password": "9339",
+      "phone": "1234567890"
+    },
+    {
+      "id": "3ba5",
+      "firstname": "vaibhav",
+      "lastname": "dike",
+      "email": "vaibhav2@gmail.com",
+      "password": "1234567",
+      "phone": "9033664554"
+    },
+    {
+      "id": "a8f4"
+    },
+    {
+      "id": "1825"
+    }
+  ],
+  "registration": [
+    {
+      "id": "3",
+      "fulltname": "vaibhav",
+      "mobile": "123456789",
+      "email": "vaibhavs12@gmail.com",
+      "course": "pune",
+      "mode": "9837373171"
+    },
+    {
+      "id": "6b60",
+      "fullname": "dipak",
+      "mobile": "93266464646467",
+      "email": "punddipak9@gmail.com",
+      "course": "Data Science",
+      "mode": "online"
+    },
+    {
+      "id": "f593",
+      "fullname": "dipak",
+      "mobile": "9022585999",
+      "email": "dipak2@gmail.com",
+      "course": "ReactJs",
+      "mode": "online"
+    },
+    {
+      "id": "a7e5",
+      "fullname": "hello",
+      "mobile": "7878787878",
+      "email": "hello@gmail.com",
+      "course": "ReactJs",
+      "mode": "online"
+    },
+    {
+      "id": "62c3",
+      "fullname": "abcd",
+      "mobile": "1234567890",
+      "email": "Dipak@gmail.com",
+      "course": "DataAnalytics",
+      "mode": "online"
+    },
+    {
+      "id": "1670",
+      "fullname": "abcd",
+      "mobile": "1234567890",
+      "email": "Dipak@gmail.com",
+      "course": "DataAnalytics",
+      "mode": "online"
+    },
+    {
+      "id": "af10",
+      "fullname": "pqrs",
+      "mobile": "8838848488",
+      "email": "pqrs@gmail.com",
+      "course": "DataAnalytics",
+      "mode": "online"
     }
   ]
 }

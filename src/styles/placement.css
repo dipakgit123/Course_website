@@ -1,0 +1,300 @@
+/* SECTION 1 */
+.place1{
+    display: flex;
+    flex-direction: row;
+    margin: 70px 200px;
+}
+
+.outfill{
+    outline: auto;
+    outline-color: grey;
+    height: 35px;
+    width: 390px;
+    border-radius: 30px;
+}
+
+.coursebtn1{
+    background-color: goldenrod !important;
+    color: white !important;
+    width: auto !important;
+    font-size:medium !important;
+    margin: 4px 4px !important;
+}
+
+.coursebtn2{
+    color:gray !important;
+    outline:none !important;
+    width: auto !important;
+    margin-left:10px  !important;
+}
+
+.coursebtn2:hover{
+    background-color: white !important;
+}
+
+.right{
+    width: 500px;
+}
+
+.right h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.right span{
+    color: goldenrod;
+}
+
+.right p{
+    text-align: justify;
+    color: grey;
+}
+
+.right Button{
+    color:goldenrod;
+    outline: auto;
+    border-radius: 20px;
+    width: 150px;
+    height: 25px;
+    text-transform: none;
+    margin-right: 15px;
+    font-size: large;
+}
+
+.right Button:hover{
+    background-color: goldenrod;
+    color: white;
+}
+
+.left{
+    margin-left:73px;
+}
+
+.left img{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;    
+}
+
+
+/* SECTION 2 */
+.App {
+    text-align: center;
+    justify-content: center;
+    align-items:center ;
+}
+      
+.App div {
+    height: 150px;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.App div:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+.App h2{
+    background-color: goldenrod;
+    width: 130px;
+    height: 40px;
+    margin: auto;
+}
+
+.place2 .ico{
+    background-color: goldenrod;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 45px;
+    margin-left: 75px;
+    margin-top: auto;
+    
+}
+.place2 .sym{
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.place2 .hig{
+font-weight: 700;
+}
+      
+
+/* SECTION 3 */
+.place3{
+    display: grid;
+    place-items: center;
+    background-color:#FFEEF1;
+    height: 350px
+}
+.place3 h2{
+    color: goldenrod;
+    font-size: 35px;
+    margin-top: -1%;
+}
+.place3 p{
+    width: 530px;
+    text-align: justify;
+    margin-top:-5%;
+}
+
+/* SECTION 4 */
+.place4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -7%;
+    justify-content: center;
+}
+
+.item{
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.place4 .studn{
+    width: 500px;
+    height: 30px;
+    margin:0 -8px -8px -8px;
+    padding: 10px;
+    background-color: black;
+    color: goldenrod;
+    font-weight: bold;
+}  
+
+.place4 p{
+    color: black;
+}
+
+/* SECTION 5 */
+
+.place5{
+   display: flex; 
+   flex-direction: row;
+   background-image: url(https://thumbs.dreamstime.com/b/grid-paper-dotted-white-background-abstract-transparent-illustration-dots-geometric-pattern-school-copybooks-notebooks-226512959.jpg);
+   height: 250px;
+   width: 1100px;
+   border-radius: 20px;;
+   margin:20px auto;
+}
+
+.rig{
+    width: 85%;
+    margin: auto 100px;
+}
+
+.lef{
+    width: 45%;
+    margin: auto;
+}
+.connectbtn{
+    background-color: goldenrod !important;
+    color: white !important;
+    width: auto !important;
+    font-size:medium !important;
+    margin: 4px 4px !important;
+}
+
+
+
+
+
+
+
+
+
+/* Media Queries for Mobile Responsiveness */
+
+/* For screens with a maximum width of 768px (tablets and smaller) */
+@media only screen and (max-width: 768px) {
+    .place1 {
+        flex-direction: column;
+        margin: 20px 20px;
+    }
+    .outfill {
+        width: 400px;
+        height: auto;
+    }
+    .coursebtn1, .coursebtn2 {
+        width: 100%;
+        margin: 10px 0;
+        height: auto;
+    }
+    .right {
+        width: 100%;
+    }
+    .right h1 {
+        font-size: 30px;
+        width: auto;
+    }
+    .left {
+        margin-left: 0;
+    }
+    .left img {
+        margin-top: 30px;
+        width: 100%;
+        height: 300px;
+    }
+    .place3{
+        height: 100px;
+    }
+    .place3 p{
+        visibility: hidden;
+    }
+    .place3 h2{
+        font-size:25px;        
+        margin-right: 168px;
+        margin-top: 10px;
+    }
+    .place5{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+    .rig{
+        margin: auto;
+    }
+    .lef{
+        width: auto;
+    }
+}
+
+/* For screens with a maximum width of 480px (mobile phones) */
+@media only screen and (max-width: 480px) {
+    .place1 {
+        margin: 10px 10px;
+    }
+    .outfill {
+        visibility: hidden;
+    }
+    .coursebtn1, .coursebtn2 {
+        visibility: hidden;
+        
+    }
+    .right h1 {
+        font-size: 20px;
+    }
+    .left img {
+        margin-top: 30px;
+        height: 200px;
+    }
+    .place3{
+        height: 100px;
+    }
+    .place3 p{
+        visibility: hidden;
+    }
+    .place3 h2{
+        font-size:25px;        
+        margin-right: 168px;
+        margin-top: 10px;
+    }
+}

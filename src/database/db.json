@@ -41,5 +41,149 @@
         "whatsapp"
       ]
     }
+  ],
+  "country_select": [
+    {
+      "id": "1",
+      "name": "India +91"
+    },
+    {
+      "id": "2",
+      "name": "Australia +61"
+    },
+    {
+      "id": "3",
+      "name": "Brazil +55"
+    },
+    {
+      "id": "4",
+      "name": "China +86"
+    },
+    {
+      "id": "5",
+      "name": "Frane +33"
+    },
+    {
+      "id": "6",
+      "name": "Germany +49"
+    },
+    {
+      "id": "7",
+      "name": "Japan +81"
+    },
+    {
+      "id": "8",
+      "name": "Russia +7"
+    },
+    {
+      "id": "9",
+      "name": "South Africa +27"
+    },
+    {
+      "id": "10",
+      "name": "United States +1"
+    }
+  ],
+  "course_select": [
+    {
+      "id": "1",
+      "name": "Data Science"
+    },
+    {
+      "id": "2",
+      "name": "Data Analyst"
+    },
+    {
+      "id": "3",
+      "name": "Power BI"
+    },
+    {
+      "id": "4",
+      "name": "Python"
+    },
+    {
+      "id": "5",
+      "name": "Machine Learning"
+    },
+    {
+      "id": "6",
+      "name": "Data Engineering"
+    },
+    {
+      "id": "7",
+      "name": "Data Visualization"
+    },
+    {
+      "id": "8",
+      "name": "SQL"
+    },
+    {
+      "id": "9",
+      "name": "AWS with DevOps"
+    },
+    {
+      "id": "10",
+      "name": "React JS"
+    },
+    {
+      "id": "11",
+      "name": "Java Development"
+    },
+    {
+      "id": "12",
+      "name": "Full Stack Web Development"
+    },
+    {
+      "id": "13",
+      "name": "Microsoft Azure"
+    },
+    {
+      "id": "14",
+      "name": "Software Testing"
+    },
+    {
+      "id": "15",
+      "name": "Salesforce"
+    },
+    {
+      "id": "16",
+      "name": "Cloud Computing"
+    },
+    {
+      "id": "17",
+      "name": "SAP FICO"
+    },
+    {
+      "id": "18",
+      "name": "Big Data Hadoop"
+    },
+    {
+      "id": "19",
+      "name": "Oracle SQL and PLSQL"
+    },
+    {
+      "id": "20",
+      "name": "RPA (Robotic Process Automation)"
+    }
+  ],
+  "booking": [
+    {
+      "id": "1",
+      "fullname": "John Doe",
+      "country": "India +91",
+      "phone": "9087654321",
+      "email": "john.doe@example.com",
+      "course": "SQL",
+      "mode": "Online"
+    },
+    {
+      "id": "3104",
+      "fullname": "Rushikesh Dattatray Jawale",
+      "country": "India +91",
+      "phone": "8976546372",
+      "email": "rushijawale9960@gmail.com",
+      "course": "Java Development",
+      "mode": "offline"
+    }
   ]
 }

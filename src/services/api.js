@@ -78,3 +78,11 @@ export const loginUser = async (email, password)=>{
         return {success:false,message:"an error occured during login"}
     }
 }
+
+export const bookUser = async(data)=>{
+    try{
+        return await axios.post('http://127.0.0.1:8080/booking',data);
+    }catch(error){
+        console.log("error while booking user",error.message);
+    }
+}

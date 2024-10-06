@@ -1,6 +1,4 @@
 
-import './App.css';
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import SignUp from './components/SignUp';
@@ -9,8 +7,12 @@ import EditUser from './components/EditUser';
 import Navnbar from './components/Navnbar';
 import { createBrowserRouter,RouterProvider,Outlet } from 'react-router-dom';
 import Login from './components/Login';
+import Placement from './components/Placement';
+import Hybrid from './components/Hybrid';
+import Online from './components/Online';
+import Offline from './components/Offline';
+import Demo from './components/Demo';
 
-//Layout Component that include navbar and outlet for routes
 
 const Layout = () =>(
   <>
@@ -50,6 +52,26 @@ const router = createBrowserRouter([
         path:"/signup",
         element:<SignUp/>
       },
+      {
+        path:"/place",
+        element:<Placement/>
+      },
+      {
+        path:"/batch",
+        element:<Hybrid/>
+      },
+      {
+        path:'/online',
+        element:<Online/>
+      },
+      {
+        path:'/offline',
+        element:<Offline/>
+      },
+      {
+        path:'/demo',
+        element:<Demo/>
+      }
     ]
   }
 

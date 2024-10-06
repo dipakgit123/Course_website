@@ -7,14 +7,20 @@ import SignUp from './components/SignUp';
 import AllUser from './components/AllUser';
 import EditUser from './components/EditUser';
 import Navnbar from './components/Navnbar';
+import Ttp from './components/Ttp';
+import Management from  './components/Management';
+import Microsoft from './components/Microsoft';
+import FixedIcons from './components/FixedIcons';
 import { createBrowserRouter,RouterProvider,Outlet } from 'react-router-dom';
 import Login from './components/Login';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Layout Component that include navbar and outlet for routes
 
 const Layout = () =>(
   <>
   <Navnbar />
+  <FixedIcons/>
   <main>
     <Outlet />
   </main>
@@ -37,6 +43,18 @@ const router = createBrowserRouter([
       {
         path :"/alluser",
         element:<AllUser/>
+      },
+      {
+        path:"/ttp",
+        element:<Ttp/>
+      },
+      {
+        path:"/manage",
+        element:<Management/>
+      },
+      {
+        path:"/micro",
+        element:<Microsoft/>
       },
       {
         path :"/login",

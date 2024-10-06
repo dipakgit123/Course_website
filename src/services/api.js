@@ -78,3 +78,85 @@ export const loginUser = async (email, password)=>{
         return {success:false,message:"an error occured during login"}
     }
 }
+
+
+//WHY TO CHOOSE US
+
+export const fetchCards1 = async () => {
+  try {
+    const response = await fetch('http://127.0.0.1:8080/cards');
+    if (!response.ok) {
+      throw new Error('Failed to fetch cards data');
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error('Error fetching cards:', error);
+    return [];
+  }
+};
+
+    //OUR KEY FEATURES
+    export const fetchFeaturesData = async () => {
+        try {
+          const response = await fetch('http://127.0.0.1:8080/features');
+          if (!response.ok) {
+            throw new Error('Failed to fetch features data');
+          }
+          const data = await response.json();
+          return data;
+        } catch (error) {
+          console.error('Error fetching features data:', error);
+          return null;
+        }
+      };
+
+    //CORPORATE TRAINING
+    export const fetchCorporateTrainingData = async () => {
+        try {
+          const response = await fetch('http://127.0.0.1:8080/corporateTraining');
+          if (!response.ok) {
+            throw new Error('Failed to fetch corporate training data');
+          }
+          const data = await response.json();
+          return data;
+        } catch (error) {
+          console.error('Error fetching corporate training data:', error);
+          return null;
+        }
+      };
+
+  
+  //LOGO 
+    export const fetchLogos = async () => {
+    const response = await fetch(' http://127.0.0.1:8080/logos');
+    if (!response.ok) {
+      throw new Error('Failed to fetch logos');
+    }
+    return response.json();
+  };
+  
+  export const fetchCards = async () => {
+    const response = await fetch(' http://127.0.0.1:8080/cards1');
+    if (!response.ok) {
+      throw new Error('Failed to fetch cards');
+    }
+    return response.json();
+  };
+
+  //VISION AND MISSION
+export const fetchVisionMissionData = async () => {
+  try {
+    const response = await fetch('http://127.0.0.1:8080/visionMission');
+    if (!response.ok) {
+      throw new Error('Failed to fetch vision and mission data');
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error('Error fetching vision and mission data:', error);
+    return null;
+  }
+};
+
+  

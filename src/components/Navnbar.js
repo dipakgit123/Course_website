@@ -20,6 +20,9 @@ const Navnbar = () => {
    <Tabs to="/">Home</Tabs>
    <Tabs to="/about">AboutUs</Tabs>
    <Tabs to="/alluser">AllUser</Tabs>
+   <Tabs to="/ttp">Ttp</Tabs>
+   <Tabs to="/manage">Management</Tabs>
+   <Tabs to="/micro">Microsoft</Tabs>
    <Box sx={{ flexGrow: 1 }}  /> 
    <Tabs to="/signup" >
     <Button variant="outlined" color='black'>SignUp</Button>

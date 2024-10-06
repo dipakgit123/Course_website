@@ -188,5 +188,399 @@
       "course": "DataAnalytics",
       "mode": "online"
     }
-  ]
-}
+  ],
+  "contact": [
+    {
+      "firstName": "Rahul",
+      "lastName": "Sharma",
+      "email": "rahulsharma@gmail.com",
+      "phone": "9876543210",
+      "message": "abcsdjhfb....",
+      "id": "2a06"
+    },
+    {
+      "id": "3b87",
+      "firstName": "Bhushan",
+      "lastName": "Bankar",
+      "email": "bhushan@gmail.com",
+      "phone": "9876543278",
+      "message": ""
+    }
+  ],
+  "video": [
+    {
+      "id": "1",
+      "url": "https://videos.pexels.com/video-files/9033086/9033086-uhd_2560_1440_25fps.mp4"
+    }
+  ],
+  "ProjectCourse":[
+    {
+      "image_url":"https://www.fusion-institute.com/_next/image?url=%2Fimg%2FourCourses%2FourCourses.jpg&w=1080&q=75"
+    }
+  ],
+
+  "course_card":[
+    {
+      "id":"1",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716961875%2FFusionCourseImage%2FdataScienceImage_lwwesn.jpg&w=640&q=75",
+      "title":"Data Science",
+      "description": "Master Data Science techniques to analyze and interpret complex data. Learn from industry-leading experts who provide practical, hands-on knowledge. Engage with a comprehensive curriculum covering da... ",
+      "learners":"750"
+    },
+    {
+      "id":"2",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1722000159%2FFusionCourseImage%2Fvorpzdopnlf4qvar3cy8.jpg&w=640&q=75",
+      "title":"Data Analyst",
+      "description": "    The Data Analyst course offers a deep dive into the essentials of data analysis, is focusing on practical skills , to solve problem and real-world application. You will master data manipulation, exploration, and visualization...",
+      "learners":"645"
+    },
+    {
+      "id":"3",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716961892%2FFusionCourseImage%2FpowerBI_b0antd.jpg&w=640&q=75",
+      "title":"Power BI",
+      "description": "Unlock The potential of Power BI is collection of software to analyse data, generate insights, and drive informed decision-making. Gain hands-on experience and expert guidence to master this powerful business intelligence tool... ",
+      "learners":"530"
+    },
+    {
+      "id":"4",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1722249442%2FFusionCourseImage%2Ftazhhqpz2rrvm7bfrgln.jpg&w=640&q=75",
+      "title":"AWS with DevOps",
+      "description": " The AWS with DevOps course offers a thorough introduction to Amazon Web Services (AWS) and DevOps principles. Participants will learn key AWS services like EC2, S3, and Lambda, and integrate DevOps pr...",
+      "learners":"454"
+    },
+    {
+      "id":"5",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716961898%2FFusionCourseImage%2Freactjs_yh8ldn.jpg&w=640&q=75",
+      "title":"React Js",
+      "description": "Master React.js for dynamic web applications. Learn hands-on with practical projects. Dive into React's component-based architecture and JSX syntax. Explore state management, routing, and lifecycle me... ",
+      "learners":"550"
+    },
+    {
+      "id":"6",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716961885%2FFusionCourseImage%2Fjava_n6s6mb.jpg&w=640&q=75",
+      "title":"Java Development",
+      "description": " Master Java development with hands-on projects and expert guidance. Dive into object-oriented programming, data structures, and multithreading.Build robust applications for diverse domains. Enhance p... ",
+      "learners":"760"
+    },
+    {
+      "id":"7",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716964623%2FFusionCourseImage%2FPythonDevelopment_svql57.jpg&w=640&q=75",
+      "title":"Python Development",
+      "description": "Master Python development with hands-on projects and expert guidance.Dive deep into Python's powerful features and libraries. Learn fundamental concepts like data structures, algorithms, and object-o... ",
+      "learners":"852"
+    },
+    {
+      "id":"8",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716963735%2FFusionCourseImage%2FwebDevelopment_bwxitq.jpg&w=640&q=75",
+      "title":" Full Stack Web Development",
+      "description": "Full-Stack Web Development involves creating both the front-end and back-end of web applications, providing a complete development solution.Full-stack developers work on user interfaces, UIX, server logic...",
+      "learners":"640"
+    },
+    {
+      "id":"9",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716963307%2FFusionCourseImage%2FMicrosoftAzure_ig6efm.jpg&w=640&q=75",
+      "title":"Microsoft Azure",
+      "description": " Microsoft Azure is a comprehensive cloud computing platform offering a wide range of services including computing, storage, networking, databases, AI, and IoT. It provides organizations with the flexi... ",
+      "learners":"410"
+    },
+    {
+      "id":"10",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716961944%2FFusionCourseImage%2FsoftwareTesting_ya0l7s.jpg&w=640&q=75",
+      "title":"Software Testing",
+      "description": " Software Testing is a critical phase in the software development lifecycle, involving the verification and validation of software applications to ensure they meet quality standards and functional requ... ",
+      "learners":"650"
+    },
+    {
+      "id":"11",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716961935%2FFusionCourseImage%2FsapMM_cg44is.jpg&w=640&q=75",
+      "title":"SAP (Material Management)",
+      "description": "Unlock the power of SAP Material Management (MM) to streamline procurement and inventory processes. Learn from industry experts through hands-on projects. Gain practical knowledge in master data manag... ",
+      "learners":"300"
+    },  
+    {
+      "id":"12",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716961924%2FFusionCourseImage%2Fsalesforce_y8f6ar.jpg&w=640&q=75",
+      "title":"Salesforce",
+      "description": "Salesforce is a cloud-based customer relationship management (CRM) platform used by businesses to manage customer interactions, streamline sales processes, and drive growth. With Salesforce, organizat...",
+      "learners":"480"
+    },
+    {
+      "id":"13",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716964505%2FFusionCourseImage%2FSAP_Fico_wdl8u6.jpg&w=640&q=75",
+      "title":"SAP FICO",
+      "description": "SAP FICO, short for Financial Accounting and Controlling, is a comprehensive module within the SAP ERP system designed for managing financial transactions, reporting, and analysis in businesses. It in... ",
+      "learners":"500"
+    },
+    {
+      "id":"14",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716964328%2FFusionCourseImage%2FBigDataHadoop_rsug5a.jpg&w=640&q=75",
+      "title":"Big Data Hadoop",
+      "description": " Big Data Hadoop is a powerful framework designed to store, process, and analyze massive volumes of data in a distributed computing environment. It consists of two main components: Hadoop Distributed F...",
+      "learners":"300"
+    },
+    {
+      "id":"15",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716963835%2FFusionCourseImage%2FOracleDB_ky781o.jpg&w=640&q=75",
+      "title":"Oracle SQL and PLSQL",
+      "description": "Oracle SQL and PL/SQL are essential components of the Oracle Database platform, used for querying, manipulating, and managing data. SQL (Structured Query Language) is a powerful language for interacti...",
+      "learners":"380"
+    },
+    {
+      "id":"16",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716965283%2FFusionCourseImage%2FSAP_SD_o35tu6.jpg&w=640&q=75",
+      "title":" SAP SD",
+      "description": "SAP Sales and Distribution (SD) is a core module of the SAP ERP system that manages all processes related to order processing, shipping, billing, and sales data management. It integrates with other SA...",
+      "learners":"280"
+    },
+    {
+      "id":"17",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716961908%2FFusionCourseImage%2Frpa_cqcsau.jpg&w=640&q=75",
+      "title":"RPA(Robotic Process Automation)",
+      "description": "  Robotic Process Automation (RPA) involves the use of software robots to automate repetitive, rule-based tasks traditionally performed by humans. RPA allows businesses to streamline operations, reduce ...",
+      "learners":"430"
+    },
+    {
+      "id":"18",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716961880%2FFusionCourseImage%2Fdotnet_romnk1.jpg&w=640&q=75",
+      "title":"Dot Net Development",
+      "description": ".NET Development involves building applications using the .NET framework, a comprehensive and versatile platform created by Microsoft. .NET developers work on developing, deploying, and maintaining so...",
+      "learners":"300"
+    },
+    {
+      "id":"19",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1716965138%2FFusionCourseImage%2FSAP_fieldGlass_kf9lkp.jpg&w=640&q=75",
+      "title":"SAP Fieldglass",
+      "description": "SAP Fieldglass is a cloud-based Vendor Management System (VMS) designed to help organizations manage their external workforce, including contingent labor and services procurement. SAP Fieldglass enabl...",
+      "learners":"400"
+    },
+    {
+      "id":"20",
+      "image":"https://www.fusion-institute.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdu45ucceq%2Fimage%2Fupload%2Fv1722856599%2FFusionCourseImage%2Ft2ypofxfkjtff89ldgkm.jpg&w=640&q=75",
+      "title":"Business Analyst",
+      "description": "Unlock your potential with our meticulously crafted Business Analyst course,tailored to empower future analysts with the expertise needed in today’s competitive landscape.  This immersive program delv...",
+      "learners":"480"
+    }
+  ],
+    "courseDetails": [
+      {
+        "id": "1",
+        "title": "Course Details:",
+        "Duration": "4.5 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/datascience",
+        "path1":"/demo"
+      },
+      {
+        "id": "2",
+        "title": "Course Details:",
+        "Duration": "4 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/dataanalyst",
+        "path1":"/demo"
+      },
+      {
+        "id": "3",
+        "title": "Course Details:",
+        "Duration": "3.5 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/powerbi",
+        "path1":"/demo"
+      },
+      {
+        "id": "4",
+        "title": "Course Details:",
+        "Duration": "4 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/aws",
+        "path1":"/demo"
+      },
+      {
+        "id": "5",
+        "title": "Course Details:",
+        "Duration": "3 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/reactjs",
+        "path1":"/demo"
+      },
+      {
+        "id": "6",
+        "title": "Course Details:",
+        "Duration": "6 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/javadevelopment",
+        "path1":"/demo"
+      },
+      {
+        "id": "7",
+        "title": "Course Details:",
+        "Duration": "3 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/python",
+        "path1":"/demo"
+      },
+      {
+        "id": "8",
+        "title": "Course Details:",
+        "Duration": "3 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/web",
+        "path1":"/demo"
+      },
+      {
+        "id": "9",
+        "title": "Course Details:",
+        "Duration": "3 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/microsoftazure",
+        "path1":"/demo"
+      },
+      {
+        "id": "10",
+        "title": "Course Details:",
+        "Duration": "4 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/softwaretesting",
+        "path1":"/demo"
+      },
+      {
+        "id": "11",
+        "title": "Course Details:",
+        "Duration": "3.5 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/sap",
+        "path1":"/demo"
+      },
+      {
+        "id": "12",
+        "title": "Course Details:",
+        "Duration": "4 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/salesforce",
+        "path1":"/demo"
+      },
+      {
+        "id": "13",
+        "title": "Course Details:",
+        "Duration": "3 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/sapfico",
+        "path1":"/demo"
+      },
+      {
+        "id": "14",
+        "title": "Course Details:",
+        "Duration": "3 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/bigdatahadoop",
+        "path1":"/demo"
+      },
+      {
+        "id": "15",
+        "title": "Course Details:",
+        "Duration": "2 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/oraclesqlplsql",
+        "path1":"/demo"
+      },
+      {
+        "id": "16",
+        "title": "Course Details:",
+        "Duration": "3 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/sapsd",
+        "path1":"/demo"
+      },
+      {
+        "id": "17",
+        "title": "Course Details:",
+        "Duration": "4 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/robotic",
+        "path1":"/demo"
+      },
+      {
+        "id": "18",
+        "title": "Course Details:",
+        "Duration": "4 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/dotnet",
+        "path1":"/demo"
+      },
+      {
+        "id": "19",
+        "title": "Course Details:",
+        "Duration": "3 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/sapfieldglass",
+        "path1":"/demo"
+      },
+      {
+        "id": "20",
+        "title": "Course Details:",
+        "Duration": "3-4 Months",
+        "Projects": "2 Projects",
+        "Placement": "100%",
+        "Modes": "Online/Offline",
+        "Expertise": "Industry Experts",
+        "path":"/businessanalyst",
+        "path1":"/demo"
+      }
+    ]
+  }

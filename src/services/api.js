@@ -123,3 +123,62 @@ export const loginUser = async (email, password)=>{
             console.log("error while adding user",error.message);
         }
     }
+
+
+    const Contact_API_URL='http://127.0.0.1:8081/contact';
+const Video_API_URL='http://127.0.0.1:8081/video';
+// add contact
+export const addContact = async(data)=>{
+    try{
+        return await axios.post(Contact_API_URL,data);
+    }catch(error){
+        console.log("error while adding contact",error.message);
+    }
+}
+
+
+// get video
+
+export const getVideo = async() =>{
+    try{
+        return await axios.get(Video_API_URL);
+    }
+    catch(error){
+        console.log("error while getting video",error.message);
+    }
+}
+
+
+// project courses
+
+export const getProject_Course = async() =>{
+    try{
+        return await axios.get("http://127.0.0.1:8081/course_card");
+    }
+    catch(error){
+        console.log("error while getting project course",error.message);
+    }
+}
+
+//course_card:
+export const getCourse_card = async() =>{
+    try{
+        return await axios.get("http://127.0.0.1:8081/course_card");
+    }
+    catch(error){
+        console.log("error while getting course cards",error.message);
+    }
+}
+
+// course Details:
+
+export const getCourse_Details = async() =>{
+    try{
+        return await axios.get("http://127.0.0.1:8081/courseDetails");
+    }
+    catch(error){
+        console.log("error while getting course details",error.message);
+    }
+}
+
+// our course api end

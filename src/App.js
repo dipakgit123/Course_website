@@ -9,6 +9,9 @@ import EditUser from './components/EditUser';
 import Navnbar from './components/Navnbar';
 import { createBrowserRouter,RouterProvider,Outlet } from 'react-router-dom';
 import Login from './components/Login';
+import Footer from './components/Footer';
+import Career from './components/Career';
+import NonTechnical from './components/NonTechnical';
 
 //Layout Component that include navbar and outlet for routes
 
@@ -50,6 +53,14 @@ const router = createBrowserRouter([
         path:"/signup",
         element:<SignUp/>
       },
+      {
+        path:"/career",
+        element:<Career/>
+      },
+      {
+        path:"/nontechnical",
+        element:<NonTechnical/>
+      }
     ]
   }
 
@@ -72,6 +83,7 @@ function App() {
       <Route path="/signup" element = {<SignUp/>}/>
     </Routes>
     </BrowserRouter> */}  
+    <Footer/>
     </>
   );
 }

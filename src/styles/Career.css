@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.first_div_container{
+    padding: 0;
+ 
+}
+
+.inside_content{
+   
+
+    align-content: center;
+    
+}
+
+.inside_content h1 span{
+    margin-left: 50px;
+   color:white;
+   font-weight: 700;
+   font-size: 55px;
+   
+}
+.inside_content_1{
+    margin-left: 50px;
+    color: white;
+}
+
+.carrer_btn_1{
+    background-color: rgb(244 222 124);
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.section_container_2{
+    color: white;
+    background-color: rgb(7 89 133);
+}
+
+.section_container_2 h2{
+    color: white;
+    background-color: rgb(7 89 133);
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+@media only screen and ( max-width : 780px){
+    .inside_content h1  span{
+        text-align: center;
+        color: black;
+    }
+
+     
+     .inside_content_1{
+         color: black;
+        align-items: center;
+     }
+
+     
+}
+
+@media only screen and ( min-width : 540px){
+    .inside_content {
+        background-image:url('https://www.fusion-institute.com/_next/image?url=%2Fimg%2Fcareer%2FmainCareer2.jpg&w=1920&q=75');
+       /* max-width: 80%; */
+        height: 600px;
+        width: 100%;
+       background-repeat: no-repeat;
+        background-color: white;
+    }
+
+    .career_div_1{
+        text-align: justify;
+      margin-bottom: 20px;
+      margin-top: 15px;
+      width: 450px;
+    }
+  
+    .carrer_col img {
+      
+       
+        border-radius: 10px; /* instead of width and height auto, use flex: 1 to make it flexible */
+      }
+    
+.section_container_1{
+    display: flex;
+    flex-direction: row;
+}
+
+.section_container_3{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.carrer_col_4 img {
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px; /* instead of width and height auto, use flex: 1 to make it flexible */
+  }
+
+  .section_container_4{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.carrer_col_5 img {
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px; /* instead of width and height auto, use flex: 1 to make it flexible */
+  }
+
+  
+.line_carrer{
+    background-color:rgb(7 89 133) ;
+    width: 1380px;
+   margin-left: 60px;
+    height: 3px;
+  margin-bottom: 20px;
+}
+
+
+.card_carrer{
+    width: 350px;
+    border-radius: 10px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 10px 5px 5px rgb(101, 96, 96);
+}
+
+.section_container_6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+
+
+
+.carrer_col{
+    margin-left: 10%;
+    margin-bottom: 20px;
+
+}
+
+
+.carrer_col_2{
+    justify-content: center;
+    margin: auto;
+    margin-left: 20px;    
+}
+.carrer_col_2 h3,h5{
+    font-weight: bold;
+
+}
+
+.carrer_col_3{
+    margin-left: 5%;
+}
+
+.carrer_col_3 h4{
+    margin: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.carrer_col_3 div{
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carrer_col_6{
+    margin-left: 5%;
+}
+.carrer_col_6{
+    margin-right: 5%;
+}
+.carrer_col_6 h4{
+    margin: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.carrer_col_6 div{
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title_carrer_bootom{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(218 170 71);
+    font-weight: bold;
+}
+
+.card_carrer_title{
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: underline 2px rgb(7 89 133) ;
+}
+
+.card_text_carrer p span{
+      font-weight: bold;
+      padding: 0;
+      margin: 0;
+}
+
+.card_text_carrer p {
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.card_text_carrer p:hover {
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.card_btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn_card_career{
+    background-color: rgb(250, 206, 119);
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    text-decoration: none;
+    border: none;  
+}
+.btn_card_career:hover{
+    background-color: rgb(206, 141, 11);
+    text-decoration: none;
+    border: none;  
+}
+@media (max-width: 768px) {
+    .section_container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .carrer_col img {
+      
+      width: 300px;
+      border-radius: 10px; /* instead of width and height auto, use flex: 1 to make it flexible */
+    }
+  
+    .carrer_col_2 {
+      justify-content: center;
+    }
+
+
+    .carrer_col_4 img {
+      
+        margin-left: 40px;
+        margin-bottom: 20px;
+        width: 300px;
+        border-radius: 10px; /* instead of width and height auto, use flex: 1 to make it flexible */
+      }
+
+
+      
+    .carrer_col_5 img {
+      
+        margin-left: 40px;
+        margin-bottom: 20px;
+        width: 300px;
+        border-radius: 10px; /* instead of width and height auto, use flex: 1 to make it flexible */
+      }
+
+            
+        .line_carrer{
+            background-color:rgb(7 89 133) ;
+            width: 330px;
+        margin-left: 50px;
+            height: 3px;
+        margin-bottom: 20px;
+        }
+       
+        .card_carrer{
+            width: 350px;
+            border-radius: 10px;
+          margin-left: 50px;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          box-shadow: 10px 5px 5px rgb(23, 23, 23);
+        }
+     
+
+  }

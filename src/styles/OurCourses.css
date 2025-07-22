@@ -1059,7 +1059,7 @@ h2{
 }
 
 /* contact_form */
-  form{ 
+  .form_info{ 
     max-width: 1000px;
     margin: 50px 100px;
     padding: 20px;
@@ -1127,7 +1127,7 @@ h2{
   color: rgb(17,24,39);
   border-radius: 8px;
   width: 95%;
-  margin-top: 10px;
+  margin-top: 20px;
   height: 8rem;
   border: none;
   background-color: rgb(243 244 246);
@@ -1167,6 +1167,7 @@ h2{
 .error-message{
   color: red;
   font-size: 10px;
+  /* margin-bottom: 20px; */
 }
 
 

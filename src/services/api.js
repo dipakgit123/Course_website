@@ -125,7 +125,11 @@ export const loginUser = async (email, password)=>{
     }
 
 
-    const Contact_API_URL='http://127.0.0.1:8081/contact';
+   
+
+// ourcourses start
+
+const Contact_API_URL='http://127.0.0.1:8081/contact';
 const Video_API_URL='http://127.0.0.1:8081/video';
 // add contact
 export const addContact = async(data)=>{
@@ -150,7 +154,6 @@ export const getVideo = async() =>{
 
 
 // project courses
-
 export const getProject_Course = async() =>{
     try{
         return await axios.get("http://127.0.0.1:8081/course_card");
@@ -180,5 +183,4 @@ export const getCourse_Details = async() =>{
         console.log("error while getting course details",error.message);
     }
 }
-
 // our course api end

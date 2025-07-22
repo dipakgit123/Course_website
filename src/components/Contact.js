@@ -38,22 +38,23 @@ const Contact = () => {
 
   const validation =(data)=>{ 
     const errors={};
-    // if(!data.firstName){
-    //   errors.firstName="Name is required."
-    // }
+    if(!data.firstName){
+      errors.firstName="firstName is required."
+    }
   
-    // if(!data.lastNamestName){
-    //   errors.lastName="Name is required."
-    // }
+    if(!data.lastName){
+      errors.lastName="lastName is required."
+    }
   
     if(!data.email){
-      errors.email="Email is required."
+      errors.email="Email is in  Abc@gmail.com format."
+
     }else if(!/^\S+@\S+\.\S+$/.test(data.email)){
       errors.email="Invalid email."
     }
 
     if(!data.phone){
-      errors.phone="Phone number is required."
+      errors.phone="Phone number is in 9202501489 format."
     }else if(!/^\d{10}$/.test(data.phone)){
       errors.phone="Invalid phone."
     }
@@ -71,17 +72,14 @@ const Contact = () => {
     alert("Thank you for contact us")
     navigate('/ourcourses');
   }else{
-    alert("Contact details failed due to validation errors");
+    alert("Contact details is invalid");
   }
     
   }
  
-
-
-
-  return (
+return (
     <div>
-      <form>
+      <form className='form_info'>
         <div className='contact_form'>
         <h1>Send us a <br></br>
         message</h1>
@@ -110,7 +108,14 @@ const Contact = () => {
                         </span>
                     )}
         <input id='Phone'  type='phone' name='phone' placeholder='Phone' onChange={(e)=>onValueChange(e)}></input>
+
+        {errors.phone && (
+                        <span className="error-message">
+                            {errors.phone}
+                        </span>
+                    )}
         </div>
+
 
         <div className='msg'>
         <textarea id='Message'  type='message' name='message' placeholder='Message'></textarea>

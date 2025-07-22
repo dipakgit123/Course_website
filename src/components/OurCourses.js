@@ -19,7 +19,7 @@ const OurCourses = () => {
   const [currentSection, setCurrentSection]=useState('');
   const handelButtonClick=()=>{
     setCurrentSection('course_offer');
-    document.getElementById('course_offer').scrollIntoView({behavior: 'smooth'});
+    document.getElementById('course_offer').scrollIntoView({behavior: 'smooth'});//with id 
   }
 
 
@@ -54,9 +54,9 @@ const OurCourses = () => {
   // course details :
   const [courseDuration, setCourseDuration] = useState([]);
   useEffect(()=>{
-    fetch('http://127.0.0.1:8080/courseDetails')
-    .then(response => response.json())
-    .then(data => setCourseDuration(data));
+    fetch('http://127.0.0.1:8080/courseDetails')// send get request to url
+    .then(response => response.json()) //take the response from fetch request and convert in json format
+    .then(data => setCourseDuration(data)); //take the json data recice from server and updates 
   },[])
 
   console.log(courseDuration)
@@ -168,9 +168,9 @@ const OurCourses = () => {
     </Card>
 
     <div className='duration'>
-        {courseDuration
-          .filter(courseDemo => courseDemo.id === course.id) 
-          .map(courseDemo => (
+        {courseDuration  //create new array //takes single argument
+          .filter(courseDemo => courseDemo.id === course.id) // callback 
+          .map(courseDemo => (//called resulting array and it creates new array
             <div className='duration1' key={courseDemo.id}>
               <h4>{courseDemo.title}</h4>
               <ul className='duration_list'>
@@ -189,8 +189,6 @@ const OurCourses = () => {
             </div>
           ))}
       </div>
-
-
     </div>
   ))}   
 
